@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>development.log - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../";
+</script>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/darkfish.js"></script>
+
+<link href="../css/fonts.css" rel="stylesheet">
+<link href="../css/rdoc.css" rel="stylesheet">
+
+
+
+<body id="top" role="document" class="file">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="../index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="../table_of_contents.html#pages">Pages</a>
+    <a href="../table_of_contents.html#classes">Classes</a>
+    <a href="../table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="project-metadata">
+    <div id="fileindex-section" class="nav-section">
+  <h3>Pages</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../Gemfile.html">Gemfile</a>
+  
+    <li><a href="../Gemfile_lock.html">Gemfile.lock</a>
+  
+    <li><a href="../README_md.html">README</a>
+  
+    <li><a href="../Rakefile.html">Rakefile</a>
+  
+    <li><a href="../app/assets/config/manifest_js.html">manifest.js</a>
+  
+    <li><a href="../app/assets/javascripts/application_js.html">application.js</a>
+  
+    <li><a href="../app/assets/javascripts/cable_js.html">cable.js</a>
+  
+    <li><a href="../app/assets/javascripts/static_pages_coffee.html">static_pages.coffee</a>
+  
+    <li><a href="../app/assets/stylesheets/application_css.html">application.css</a>
+  
+    <li><a href="../app/assets/stylesheets/static_pages_scss.html">static_pages.scss</a>
+  
+    <li><a href="../config_ru.html">config.ru</a>
+  
+    <li><a href="../db/test_sqlite3.html">test.sqlite3</a>
+  
+    <li><a href="../log/development_log.html">development.log</a>
+  
+    <li><a href="../log/test_log.html">test.log</a>
+  
+    <li><a href="../package_json.html">package.json</a>
+  
+    <li><a href="../public/404_html.html">404.html</a>
+  
+    <li><a href="../public/422_html.html">422.html</a>
+  
+    <li><a href="../public/500_html.html">500.html</a>
+  
+    <li><a href="../public/apple-touch-icon-precomposed_png.html">apple-touch-icon-precomposed.png</a>
+  
+    <li><a href="../public/apple-touch-icon_png.html">apple-touch-icon.png</a>
+  
+    <li><a href="../public/favicon_ico.html">favicon.ico</a>
+  
+    <li><a href="../public/robots_txt.html">robots</a>
+  
+    <li><a href="../tmp/restart_txt.html">restart</a>
+  
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-label="Page log/development.log">
+
+<p>Started GET “/” for 127.0.0.1 at 2019-04-16 22:35:22 +0800 Processing by <a
+href="../ApplicationController.html#method-i-hello">ApplicationController#hello</a>
+as HTML</p>
+
+<pre>Rendering html template
+Rendered html template (0.1ms)</pre>
+
+<p>Completed 200 OK in 347ms (Views: 264.8ms)</p>
+
+<p>Started GET “/static_page/home” for 127.0.0.1 at 2019-04-16 22:36:11 +0800</p>
+
+<p>ActionController::RoutingError (No route matches [GET]
+“/static_page/home”):</p>
+
+<p>actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in
+`call&#39; web-console (3.5.1) lib/web_console/middleware.rb:135:in
+`call_app&#39; web-console (3.5.1) lib/web_console/middleware.rb:28:in
+`block in call&#39; web-console (3.5.1) lib/web_console/middleware.rb:18:in
+`catch&#39; web-console (3.5.1) lib/web_console/middleware.rb:18:in
+`call&#39; actionpack (5.1.6)
+lib/action_dispatch/middleware/show_exceptions.rb:31:in `call&#39; railties
+(5.1.6) lib/rails/rack/logger.rb:36:in `call_app&#39; railties (5.1.6)
+lib/rails/rack/logger.rb:24:in `block in call&#39; activesupport (5.1.6)
+lib/active_support/tagged_logging.rb:69:in `block in tagged&#39;
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in
+`tagged&#39; activesupport (5.1.6)
+lib/active_support/tagged_logging.rb:69:in `tagged&#39; railties (5.1.6)
+lib/rails/rack/logger.rb:24:in `call&#39; sprockets-rails (3.2.1)
+lib/sprockets/rails/quiet_assets.rb:13:in `call&#39; actionpack (5.1.6)
+lib/action_dispatch/middleware/remote_ip.rb:79:in `call&#39; actionpack
+(5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call&#39; rack
+(2.0.7) lib/rack/method_override.rb:22:in `call&#39; rack (2.0.7)
+lib/rack/runtime.rb:22:in `call&#39; activesupport (5.1.6)
+lib/active_support/cache/strategy/local_cache_middleware.rb:27:in
+`call&#39; actionpack (5.1.6)
+lib/action_dispatch/middleware/executor.rb:12:in `call&#39; actionpack
+(5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call&#39; rack
+(2.0.7) lib/rack/sendfile.rb:111:in `call&#39; railties (5.1.6)
+lib/rails/engine.rb:522:in `call&#39; puma (3.9.1)
+lib/puma/configuration.rb:224:in `call&#39; puma (3.9.1)
+lib/puma/server.rb:602:in `handle_request&#39; puma (3.9.1)
+lib/puma/server.rb:435:in `process_client&#39; puma (3.9.1)
+lib/puma/server.rb:299:in `block in run&#39; puma (3.9.1)
+lib/puma/thread_pool.rb:120:in `block in spawn_thread&#39; Started GET
+“/static_pages/home” for 127.0.0.1 at 2019-04-16 22:36:21 +0800 Processing
+by <a
+href="../StaticPagesController.html#method-i-home">StaticPagesController#home</a>
+as HTML</p>
+
+<pre>Rendering static_pages/home.html.erb within layouts/application
+Rendered static_pages/home.html.erb within layouts/application (0.2ms)</pre>
+
+<p>Completed 200 OK in 1020ms (Views: 1019.2ms)</p>
+
+<p>Started GET “/” for 127.0.0.1 at 2019-04-16 23:07:51 +0800 Processing by <a
+href="../ApplicationController.html#method-i-hello">ApplicationController#hello</a>
+as HTML</p>
+
+<pre>Rendering html template
+Rendered html template (0.0ms)</pre>
+
+<p>Completed 200 OK in 83ms (Views: 2.1ms)</p>
+
+<p>Started GET “/static_pages/home” for 127.0.0.1 at 2019-04-16 23:08:07 +0800
+Processing by <a
+href="../StaticPagesController.html#method-i-home">StaticPagesController#home</a>
+as HTML</p>
+
+<pre>Rendering static_pages/home.html.erb within layouts/application
+Rendered static_pages/home.html.erb within layouts/application (0.6ms)</pre>
+
+<p>Completed 200 OK in 116ms (Views: 115.2ms)</p>
+
+<p>Started GET “/static_pages/help” for 127.0.0.1 at 2019-04-16 23:08:12 +0800
+Processing by <a
+href="../StaticPagesController.html#method-i-help">StaticPagesController#help</a>
+as HTML</p>
+
+<pre>Rendering static_pages/help.html.erb within layouts/application
+Rendered static_pages/help.html.erb within layouts/application (0.3ms)</pre>
+
+<p>Completed 200 OK in 9ms (Views: 8.0ms)</p>
+
+<p>Started GET “/static_pages/help” for 127.0.0.1 at 2019-04-16 23:08:42 +0800
+Processing by <a
+href="../StaticPagesController.html#method-i-help">StaticPagesController#help</a>
+as HTML</p>
+
+<pre>Rendering static_pages/help.html.erb within layouts/application
+Rendered static_pages/help.html.erb within layouts/application (0.6ms)</pre>
+
+<p>Completed 200 OK in 210ms (Views: 120.7ms)</p>
+
+<p>Started GET “/” for 127.0.0.1 at 2019-04-21 21:50:28 +0800 Processing by <a
+href="../StaticPagesController.html#method-i-home">StaticPagesController#home</a>
+as HTML</p>
+
+<pre>Rendering static_pages/home.html.erb within layouts/application
+Rendered static_pages/home.html.erb within layouts/application (0.7ms)</pre>
+
+<p>Completed 200 OK in 295ms (Views: 214.9ms)</p>
+
+<p>Started GET “/static_pages/help” for 127.0.0.1 at 2019-04-21 21:50:49 +0800
+Processing by <a
+href="../StaticPagesController.html#method-i-help">StaticPagesController#help</a>
+as HTML</p>
+
+<pre>Rendering static_pages/help.html.erb within layouts/application
+Rendered static_pages/help.html.erb within layouts/application (0.2ms)</pre>
+
+<p>Completed 200 OK in 10ms (Views: 8.8ms)</p>
+
+<p>Started GET “/static_pages/home” for 127.0.0.1 at 2019-04-21 21:50:55 +0800
+Processing by <a
+href="../StaticPagesController.html#method-i-home">StaticPagesController#home</a>
+as HTML</p>
+
+<pre>Rendering static_pages/home.html.erb within layouts/application
+Rendered static_pages/home.html.erb within layouts/application (0.3ms)</pre>
+
+<p>Completed 200 OK in 10ms (Views: 9.8ms)</p>
+
+<p>Started GET “/static_pages/help” for 127.0.0.1 at 2019-04-21 21:51:16 +0800
+Processing by <a
+href="../StaticPagesController.html#method-i-help">StaticPagesController#help</a>
+as HTML</p>
+
+<pre>Rendering static_pages/help.html.erb within layouts/application
+Rendered static_pages/help.html.erb within layouts/application (0.3ms)</pre>
+
+<p>Completed 200 OK in 10ms (Views: 9.7ms)</p>
+</main>
+
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="http://docs.seattlerb.org/rdoc/">RDoc</a> 4.2.1.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+
