@@ -13,8 +13,6 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
     assert_template 'users/new'
     assert_select 'div#error_explanation'
     assert_select 'div.alert-danger'
-    :q
-    :q
   end
 
   test "valid signup information" do
