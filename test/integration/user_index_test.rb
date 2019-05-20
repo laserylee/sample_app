@@ -5,6 +5,7 @@ class UserIndexTest < ActionDispatch::IntegrationTest
   def setup
     @admin     = users(:michael)
     @non_admin = users(:archer)
+    @inactive  = users(:malory)
   end
 
   test "index as admin including pagination and delete links" do
@@ -30,5 +31,15 @@ class UserIndexTest < ActionDispatch::IntegrationTest
     assert_difference 'User.count', 0  do
       delete user_path(@non_admin)
     end
+  end 
+  
+  test "index redirect to root unless account is activated" do
+    @inactive.activated = false
+    assert_not @inactive.activated
+    log_in_as(@inactive)
+    assert_not @inactive.activated
+    get users_path
+    assert_redirected_to root_url
   end
+
 end
