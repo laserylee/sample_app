@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails',         '5.1.6'
 gem 'bcrypt',        '3.1.12'
 gem 'faker',         '1.7.3'
-gem 'carrierwave',   '1.2.2' # Upload Stuff
+gem 'carrierwave',   '1.3.2' # Upload Stuff
 gem 'mini_magick',   '4.7.0' # Picture
 gem 'bootstrap-sass','>= 3.4.1'
 gem 'will_paginate', '3.1.6'
